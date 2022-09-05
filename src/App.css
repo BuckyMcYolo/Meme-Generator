@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+}
+.headerTitle {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.938);
+}
+.troll {
+  padding: 15px;
+}
+.reactCourse {
+  margin-left: auto;
+  padding-right: 1em;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.822);
+}
+.inputForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+.form1 {
+  height: 45px;
+  font-size: 1.25em;
+  width: 25rem;
+  margin: 2rem;
+  background-color: rgba(240, 248, 255, 0.541);
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  border: solid 1px #a626d3;
+  font-family: Inter;
+}
+
+.form1:hover {
+  background-color: rgba(240, 248, 255, 0.925);
+  border: solid 1px #a626d3;
+  cursor: pointer;
+}
+.memeBtn {
+  font-family: Inter;
+  display: flex;
+  width: 54rem;
+  height: 55px;
+  background-color: #8b19b4;
+  border: 1px white solid;
+  border-radius: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25em;
+  cursor: pointer;
+  font-weight: 500;
+}
+.memeBtn:hover {
+  background-color: #a526d3c2;
+}
+.memeBtn:active {
+  background-color: #a626d3;
+}
+.btnimage {
+  margin-left: 5px;
+}
+.daMeme {
+  margin-top: 5rem;
+  width: 600px;
+  height: auto;
+}
+.d {
+  display: flex;
+  flex-direction: column;
+}
